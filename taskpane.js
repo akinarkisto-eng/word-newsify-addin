@@ -44,7 +44,7 @@ async function replaceSelectedText(newText) {
 
 // --- Kutsu Vercel-backendille ---
 async function callBackend(originalText) {
-  const response = await fetch("https://YOUR-VERCEL-PROJECT.vercel.app/api/newsify", {
+  const response = await fetch("https://newsify-backend-eta.vercel.app/api/newsify", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ text: originalText })
