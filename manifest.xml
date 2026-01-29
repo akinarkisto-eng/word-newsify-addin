@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:type="TaskPaneApp"
+           xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
+           xmlns:ov="http://schemas.microsoft.com/office/taskpaneappversionoverrides"
+           Version="1.0.0.0"
+           ProviderName="Newsify"
+           DefaultLocale="en-US">
+
+  <Id>f3b2c1d0-1234-4567-89ab-001122334455</Id>
+  <Version>1.0.0.0</Version>
+  <DisplayName DefaultValue="Uutiseditori" />
+  <Description DefaultValue="Muokkaa tekstiä uutismaiseksi OpenAI:n avulla." />
+
+  <Hosts>
+    <Host Name="Document" />
+  </Hosts>
+
+  <DefaultSettings>
+    <SourceLocation DefaultValue="taskpane.html" />
+  </DefaultSettings>
+
+  <Permissions>ReadWriteDocument</Permissions>
+
+</OfficeApp>
