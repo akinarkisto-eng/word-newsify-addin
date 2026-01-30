@@ -16,10 +16,10 @@
   <Description DefaultValue="Muokkaa tekstiä uutismaiseksi OpenAI:n avulla."/>
 
   <!-- Kuvakkeet -->
-  <IconUrl DefaultValue="https://newsify-backend-eta.vercel.app/icon-32.png"/>
-  <HighResolutionIconUrl DefaultValue="https://newsify-backend-eta.vercel.app/icon-80.png"/>
+  <IconUrl DefaultValue="https://akinarkisto-eng.github.io/word-newsify-addin/icon-32.png"/>
+  <HighResolutionIconUrl DefaultValue="https://akinarkisto-eng.github.io/word-newsify-addin/icon-80.png"/>
 
-  <SupportUrl DefaultValue="https://newsify-backend-eta.vercel.app"/>
+  <SupportUrl DefaultValue="https://akinarkisto-eng.github.io/word-newsify-addin"/>
 
   <!-- Hostit -->
   <Hosts>
@@ -35,7 +35,7 @@
 
   <!-- Taskpane-sijainti -->
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://newsify-backend-eta.vercel.app/taskpane.html"/>
+    <SourceLocation DefaultValue="https://akinarkisto-eng.github.io/word-newsify-addin/taskpane.html"/>
   </DefaultSettings>
 
   <!-- Oikeudet -->
@@ -43,6 +43,8 @@
 
   <!-- Salli ulkoiset domainit -->
   <AppDomains>
+    <AppDomain>https://akinarkisto-eng.github.io</AppDomain>
+    <AppDomain>https://akinarkisto-eng.github.io/word-newsify-addin</AppDomain>
     <AppDomain>https://newsify-backend-eta.vercel.app</AppDomain>
   </AppDomains>
 
@@ -88,13 +90,13 @@
     <!-- Resurssit -->
     <Resources>
       <bt:Images>
-        <bt:Image id="icon16" DefaultValue="https://newsify-backend-eta.vercel.app/icon-16.png"/>
-        <bt:Image id="icon32" DefaultValue="https://newsify-backend-eta.vercel.app/icon-32.png"/>
-        <bt:Image id="icon80" DefaultValue="https://newsify-backend-eta.vercel.app/icon-80.png"/>
+        <bt:Image id="icon16" DefaultValue="https://akinarkisto-eng.github.io/word-newsify-addin/icon-16.png"/>
+        <bt:Image id="icon32" DefaultValue="https://akinarkisto-eng.github.io/word-newsify-addin/icon-32.png"/>
+        <bt:Image id="icon80" DefaultValue="https://akinarkisto-eng.github.io/word-newsify-addin/icon-80.png"/>
       </bt:Images>
 
       <bt:Urls>
-        <bt:Url id="residTaskpaneUrl" DefaultValue="https://newsify-backend-eta.vercel.app/taskpane.html"/>
+        <bt:Url id="residTaskpaneUrl" DefaultValue="https://akinarkisto-eng.github.io/word-newsify-addin/taskpane.html"/>
       </bt:Urls>
 
       <bt:ShortStrings>
